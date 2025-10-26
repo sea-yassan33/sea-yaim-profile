@@ -11,7 +11,7 @@ export default function HeroSection() {
             Sea Yass IM
           </h1>
           <p className="text-lg text-slate-600 mb-8 max-w-lg">
-            ★sea-yassのポートフォリオサイトへようこそ★ <br />
+            ★sea-yassのポートフォリオサイトへようこそ(PRE)★ <br />
             sea-yassの開発メソッドや制作実績を紹介しています。ITソリューションを提供し、ヘルスケアや企業支援を中心に幅広い分野で活躍しています。
           </p>
           <ul className="space-y-3 text-slate-800 font-medium mb-10">
