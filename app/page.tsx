@@ -1,8 +1,9 @@
+import HeroSection from "@/components/home/hero";
 
 export default function Home() {
   return (
-    <main className="text-sky-500">
-      first commit
+    <main>
+      <HeroSection />
     </main>
   );
 }

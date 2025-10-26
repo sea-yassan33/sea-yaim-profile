@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Header from "@/components/home/header";
+import Footer from "@/components/home/footer";
 
 export const metadata: Metadata = {
   title: "SYAIM | Sea-yassan portfolio",
@@ -23,7 +25,9 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body className="min-h-screen bg-white">
-          {children}
+        <Header />
+        {children}
+        <Footer />
       </body>
     </html>
   );
