@@ -1,0 +1,32 @@
+{
+  "profile": "Python,Java,Reactを使用してアプリ開発を行なっております。UI実装やAPI実装が可能です。データを機械学習を用いて分析が出来、データーに基づくアプリ開発を行なっていきたいと考えております。",
+  "languages": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "Node.js",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Ruby"
+  ],
+  "infrastructures": [
+    "MySQL",
+    "Big Query",
+    "Linux",
+    "CentOS",
+    " Rocky Linux",
+    "さくらVPS",
+    "AWS",
+    "GCP"
+  ],
+  "frameworkes": [
+    "Django",
+    "Flask",
+    "SpringBoot",
+    "Ruby on Rails",
+    "jQuery",
+    "Tailwind",
+    "Bootstrap"
+  ]
+}

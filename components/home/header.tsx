@@ -7,7 +7,7 @@ import { tv } from 'tailwind-variants';
 import Image from "next/image";
 //ヘッダーリンク
 const headerLinks = [
-  { label: "プロジェクト", href: "#" },
+  { label: "プロジェクト", href: "/see_project" },
   { label: "メソッド", href: "#" },
   { label: "備忘録", href: "#" },
 ];
@@ -44,7 +44,9 @@ export default function Header() {
         {/* Actions */}
         <div className="flex items-center gap-4">
           <Button variant="outline" className="hidden md:inline-flex">
-            ポートフォリオ
+            <Link href={"/profile"}>
+              About
+            </Link>
           </Button>
           <Button className="hidden bg-gray-900 text-white hover:bg-gray-800 md:inline-flex">
             問い合わせ

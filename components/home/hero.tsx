@@ -16,7 +16,7 @@ export default function HeroSection() {
           </p>
           <ul className="space-y-3 text-slate-800 font-medium mb-10">
             <li className="flex items-center gap-2">
-              <Link href="#">
+              <Link href="/see_project">
                 <Button className="bg-orange-200 hover:bg-orange-500 text-blak hover:text-amber-100 text-base  px-6 py-5 rounded-xl shadow-md">
                   プロジェクトを見る
                 </Button>
@@ -30,7 +30,7 @@ export default function HeroSection() {
               </Link>
             </li>
             <li className="flex items-center gap-2">
-              <Link href="/#">
+              <Link href="/profile">
                 <Button className="bg-sky-200 hover:bg-sky-500 text-blak hover:text-amber-100 text-base px-6 py-5 rounded-xl shadow-md">
                   About sea-yass
                 </Button>

@@ -5,15 +5,14 @@ const footerLinks = {
   company: {
     title: "sea-yassについて",
     links: [
-      { label: "概要", href: "#" },
-      { label: "ポートフォリオ", href: "#" },
+      { label: "About", href: "/profile" },
       { label: "お問い合わせ", href: "#" },
     ]
   },
   service: {
     title: "開発",
     links: [
-      { label: "プロジェクト", href: "#" },
+      { label: "プロジェクト", href: "/see_project" },
       { label: "メソッド", href: "#" },
     ]
   },
@@ -63,7 +62,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-2 flex flex-col items-center">
           <div className="text-sm text-gray-600 md:flex-row">
-            <p>© {currentYear} nextjs_desing_catalog, Inc. All rights reserved.</p>
+            <p>© {currentYear} <Link href={"https://github.com/sea-yassan33/"} target="_blank">sea-yassan33</Link>, Inc. All rights reserved.</p>
           </div>
         </div>
       </div>
